@@ -40,6 +40,7 @@ namespace GenericRepository
                     options.UseSqlServer(Configuration.GetConnectionString("GenericRepositoryContext")));
 
             services.AddScoped<MovieRepository>();
+            services.AddScoped<MovieRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

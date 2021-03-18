@@ -14,6 +14,7 @@ namespace GenericRepository.Data
         {
         }
 
-        public DbSet<GenericRepository.Entities.Movie> Movie { get; set; }
+        public DbSet<Movie> Movie { get; set; }
+        public DbSet<Actors> Actors { get; set; }
     }
 }
